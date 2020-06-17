@@ -1,0 +1,66 @@
+#header {
+    position: relative;
+    margin: 0;
+    padding-top: 0px;
+    background-color: lightgray;
+}
+
+#header p {
+    margin: 0px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 9px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+#header .span-class {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    padding-right: 60px;
+}
+
+#rightdiv {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    right: 0;
+}
+
+#rightdiv .commentpara {
+    font-size: xx-large;
+    display: inline-block;
+}
+
+#rightdiv .comment {
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+#rightdiv .commentbox {
+    width: 85%;
+    padding: 30px;
+    margin-top: 0px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+#rightdiv input[type=submit] {
+    margin-top: 7px;
+    padding: 7px;
+    background-color: blue;
+    border: 1px;
+    color: white;
+    border-radius: 3px;
+}
+
+#leftdiv {
+    padding-left: 110px;
+    position: absolute;
+    padding-top: 40px;
+    height: 90%;
+    width: 20%;
+    left: 0;
+}
